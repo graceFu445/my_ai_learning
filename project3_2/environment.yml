@@ -1,0 +1,10 @@
+name: project3_2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - dashscope>=1.20.0
+      - neo4j>=5.20.0
+      - jieba>=0.42.1
